@@ -1,0 +1,404 @@
+*{
+   
+    scroll-behavior: smooth;
+}
+header{
+display: flex;
+justify-content: space-between;
+margin-left: auto;
+margin-right: auto;
+}
+section{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+   
+}
+body{
+background-color: lightblue;
+}
+.navbar{
+    background-image: url("images/first_slide.jpg"); 
+    width: 1200px ;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    height: 500PX;
+}
+.content{
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    
+ }
+.logo{
+    position: relative;
+    margin-top: 100px;
+    font-size: 50px;
+    color: white;
+    text-decoration: none;
+    
+}
+header .menu{  
+    display: flex;
+   justify-content: space-between;
+   margin-top: 130px;
+}
+header ul{
+    display: flex;
+    position:relative ;
+}
+header ul li{
+    list-style-type:none ;      
+    position: relative;
+}
+header ul li a{
+    position: relative;
+    display: inline-block;
+    margin: 0 15px ;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 900;
+    font-size: 15px;
+}
+header ul li a:hover{
+    position: relative;
+    display: inline-block;
+    margin: 0 15px ;
+    text-decoration: none;
+    color:chartreuse;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.content .heading-content{
+    margin-left: 80px;
+   margin-top: 80px;
+  
+}
+.content .heading-content p{
+font-size:18px;
+color: black;
+font-weight:bold;
+word-spacing:2px;
+transition: 0.2s;
+color: thistle;
+}
+.content .heading-content button{
+   background-color: blue;
+   color: white;
+   width: 100px;
+   height: 30px;
+   border-radius: 10px;
+   cursor: pointer;
+   transition: 0.2s;
+}
+.home{
+    background-color:white;
+    background-image: none;
+    margin-top: 0px;
+    height: auto;
+}
+ .heading h2{
+    text-align: center;
+    position: relative;
+    margin-top: auto;
+     top: 80px;
+     font-size: 30px;
+}
+.about{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    margin-top: 100px;
+    transition: 0.2s;
+}
+.about .para{
+    max-width: 500px;
+}
+.services{
+    display: flex;
+    justify-content: space-between;
+}
+.services{
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+}
+.services p{
+    width: 200px;
+    text-align: center;
+}.services button{
+    background-color:rgb(233, 233, 127);
+    color: blue;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+ }
+.projects .content{
+max-width: 1200px;
+}
+.projects{
+    background-color: white;
+}
+.projects img{
+    height: 130px;
+}
+.projects .project-grid{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    margin-top: 130px;
+    text-align: center;
+}
+.projects .project-grid p{
+    max-width: 200px;
+}
+.project-grid .first-project{
+    background-color: grey;
+    padding: 20px;
+}
+.project-grid .second-project{
+    background-color: grey;
+  
+    padding: 20px;
+}
+.project-grid .third-project{
+    background-color: grey;
+    padding: 20px;
+}
+.project-grid .fourth-project{
+    background-color:grey;
+    padding: 20px;
+}
+.project-grid p,.project-grid h3{
+color: white;
+}
+.project-grid .first-project:hover{
+    background-color:rgb(233, 233, 127);
+    padding: 20px;
+
+}
+.project-grid .second-project:hover{
+    background-color:rgb(233, 233, 127);
+    padding: 20px;
+}
+.project-grid .third-project:hover{
+    background-color:rgb(233, 233, 127);
+    padding: 20px;
+}
+.project-grid .fourth-project:hover{
+    background-color:rgb(233, 233, 127);
+    padding: 20px;
+}
+.project-grid button:hover{
+color: white;
+background-color: blue;
+cursor: pointer;
+
+}
+.pricing-table{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 150px;
+    padding-bottom: 80px;
+}
+.pricing-table .one{
+    border-right: solid black 1px;
+     padding-right: 80px;
+}
+.pricing-table .two{
+    border-right: solid black 1px;
+     padding-right: 80px;
+}
+.pricing{
+    background-color: white;
+}
+.pricing-table button{
+    padding: 5px 20px 5px 20px;
+    background-color:rgb(233, 233, 127);
+    
+}
+.pricing-table button:hover{
+    padding: 5px 20px 5px 20px;
+    background-color: violet;
+    color: white;
+    cursor: pointer;
+    
+}
+.content2{
+    background-color: rgb(134, 87, 134);
+    height: 700px;
+    position: relative;
+}
+.owl-carousel .item{
+  position: relative;
+  margin-top: 140px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+   
+}
+.owl-carousel .item video{
+    width: 600px;
+    height: 350px;
+}
+
+.content2 .heading{
+    color: white;
+}
+.team{
+    background-color: white;
+}
+.team .team-div{ 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 60px;
+    margin-top : 100px;
+    text-align: center;
+}
+.team .team-div img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin: 30px 40px 0px 40px;
+}
+.newsletter{
+    background: url("bridge.jpg");
+
+}
+.content.news .input{
+    text-align: center;
+    margin-top: 120px;
+}
+.content.news .input input{
+    padding: 10px;
+}
+.content.news .input button{
+    padding: 10px;
+    margin-left: -10px;
+    background-color: rgb(228, 228, 129);
+    color: white;
+}
+.content.news .sighn{
+background-color: purple;
+color: white;
+padding: 10px;
+margin: 20px;
+margin-left: 500px;
+}
+.content.news .heading{
+    color: white;
+}
+    
+.content.news .sighn:hover{
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 500px;
+    cursor: pointer;
+    }
+.blog{
+      background-color: white;
+      height: 600px;
+      padding-bottom: 50px;
+    }
+.blogs{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    position: relative;
+    top: 120px;
+    
+}
+.blogs p{
+    max-width: 200px;
+}
+.blogs button{
+    padding: 5px 10px 5px 10px;
+}
+.blogs button:hover{
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(228, 228, 129);
+}
+.blogs img{
+    width: 200px;
+    height: 130px;  
+}
+.contact{
+    background-color: rgb(228, 228, 129) ;
+    height: 700px;
+}
+.contact-details .map{
+    width:65%;
+    margin-left:80px;
+    height: 300px;
+}
+.contact-details{
+  position: relative; 
+  display: flex;
+  top: 150px;
+
+}
+.contact-details .form{
+   display: flex;
+   flex-direction: column;
+    flex-wrap: wrap;
+}
+.contact-details input,textarea{
+    padding: 15px 20px 15px 20px;
+    margin-top: 20px;
+    border: 1px solid black;
+    resize: vertical;
+    margin-right: 80px;
+}
+.contact-details button{
+    max-width: 140px;
+    margin-top: 20px;
+    padding: 15px 40px 15px 40px;
+    border: 1px solid black;
+    background-color: violet;
+}
+.contact-details button:hover{
+    max-width: 140px;
+    margin-top: 20px;
+    padding: 15px 40px 15px 40px;
+    border: 1px solid black;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.link-ext{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.link-ext p{
+    max-width: 200px;
+}
+.link-ext .icons{
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+
+}
+.links{
+    background-color: white;
+}
+footer{
+    max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
